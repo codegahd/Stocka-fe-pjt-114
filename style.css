@@ -1,0 +1,159 @@
+*::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* max-width: 2500px; */
+
+}
+
+
+
+
+
+.navBar {
+
+  position: relative;
+  width: 100%;
+  height: 100px;
+  max-width: 1000px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: transparent
+
+}
+
+.body__svgIcon {
+  /* object-fit: contain; */
+  height: 400px;
+  position: absolute;
+  top: 0;
+  /* z-index: 1; */
+  left:  970px;
+  z-index: -1;
+}
+
+
+
+
+.navBar__info {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
+
+
+.navBar__info  h2 {
+  color: #2bffff;
+  margin-left: 40px;
+  flex: 1;
+  
+}
+
+span {
+  color: #ffd978;
+}
+
+.navBar__right {
+
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 38px;
+}
+
+
+
+.navBar__right > a {
+  text-decoration: none;
+  color: #242424;
+}
+
+/* HERESECTION HERE***************** */
+.herosection {
+  display: flex;
+  position: relative;
+  /* width: 100%; */
+  /* align-items: center; */
+  /* margin-bottom: 50px; */
+  
+}
+.heroSection1__rightSvg {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  bottom: -20rem;
+  height: 450px; 
+  padding-right: 15rem;
+  padding-bottom: 25rem;
+  padding-left: 45px;
+  z-index: 1;
+}
+
+
+.heroSection1__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  /* justify-content: space-between; */
+}
+
+/* .heroSection1__left {
+  display:flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 20px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1;
+
+} */
+
+
+.hereSection1__infoButton {
+  padding: 10px;
+  background-color: #ffcc49;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+ /* img {
+  position: absolute;
+  
+  left: 500px;
+  bottom: -rem;
+  height: 400px; 
+  padding-right: 15rem;
+  padding-bottom: 25rem;
+  padding-left: 45px;
+  
+} */
+
+@media only screen and (max-width: 590px) {
+
+  .navBar__right {
+
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 38px;
+    font-size: 10px;
+  }
+  
+  .nav__rightButton {
+    padding: 10px;
+    background-color: #ffcc49;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+}
