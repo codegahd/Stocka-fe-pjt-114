@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script  src="index.js" defer></script>
 </head>
 <body>
+   
     <img src="../images/Vector.svg" alt="logo" class="vector_bodybackground1">
     <img src="../images/vectorBg2.svg" alt="logo" class="vectorBg2">
-
 <!-- ********************************************header ************************************ -->
     <header>
+      
         <div class="logo"><img src="../images/stocka.svg" alt="logo" class="stocka_logo"></h2></div>
         <nav>
-            <li><a href="">why stocka</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#whystocka">why stocka</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#social-icons">Contact</a></li>
         </nav>
     </header>
 
@@ -36,7 +36,7 @@
         </div>
         <img src="../images/Group 565.svg" alt="hero image" class="hero-img">
     </section>
-    <section class="banner">
+    <section class="banner" id="whystocka">
         <h3>Why <span>Stocka?<span></h3>
         <div class="banner__info">
             <img src="../images/banner.svg" alt="banner image">
@@ -55,31 +55,44 @@
     <section class="stats">
         <section class="charts">
             <h1>Real-time<br>performance<br>stats</h1>
-            <h3>monitor your business <br> growth, in real time</h3>
+            <div class="charts__img1-2">
+                <img src="../images/chart1.svg" alt="chart icon" class="img1">
+                <img src="../images/chart2.svg" alt="chart icon" class="img2">
+            </div>
+        
+            <img src="../images/Summary.svg" alt="chart icon" class="img3">
 
         
         </section>
         <section class="chart-sidebar">
+            <h3>monitor your business <br> growth, in real time</h3>
+           
             
-            <img src="../images/chart1.svg" alt="chart icon" class="img1">
-            <img src="../images/chart2.svg" alt="chart icon" class="img2">
-            <!-- <img src="../images/Summary.svg" alt="chart icon" class="img3"> -->
             <div class="side-content">
                
                 <div class="content1">
                     <img src="../images/briefing.svg" alt="record">
-                    <h3>daily profit/loss tracking</h3>
-                    <p>Keeping track records of profit<br>and sales, made easier with<br>stocka. </p>
+
+                    <div class="content__info">
+                        <h3>daily profit/loss tracking</h3>
+                        <p>Keeping track records of profit<br>and sales, made easier with<br>stocka. </p>
+                    </div>
+                   
                 </div>
                 <div class="content2">
                     <img src="../images/financial.svg" alt="financial">
-                    <h3>Income and Expenses Reports</h3>
-                    <p>With reports on income<br>and expenses, accountability is<br>guarateed.</p>
+                    <div class="content__info">
+                        <h3>Income & Expenses Reports</h3>
+                        <p>With reports on income<br>and expenses, accountability is<br>guarateed.</p>
+                    </div>
+                   
                 </div>
                 <div class="content3">
                     <img src="../images/profits.svg" alt="profits">
-                    <h3>Future profit projections</h3>
-                    <p>With profit projections, you can<br>take more informed decisions to <br> put your business in a better<br>position.</p>
+                    <div class="content__info">
+                        <h3>Future profit projections</h3>
+                        <p>With profit projections, you can<br>take more informed decisions to <br> put your business in a better<br>position.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -87,70 +100,89 @@
 
 <!-- ***************************************** scanner advert*************************************** -->
 
-    <!-- <section class="scanner">
+    <section class="scanner">
         <div class="scanner-content">
             <h1>Sth About<br>The Scanner</h1>
             <p>with product scanner ,effeciency,<br>error production and data collection<br>is being made easier and better.</p>
-            <button><img src="../images/googleplaystore.png" alt="googleplaystore"></button>
+            <img src="../images/googleplaystore.svg" alt="googleplaystore" class="scanner-gggleplaystore">
         </div>
-        <img src="../images/scanner-img.png" alt="scanner image">
-    </section> -->
+        <img src="../images/scanner-img.svg" alt="scanner image" class="scanner-img"> 
+    </section>
 
  <!-- ************************************ferquently asked question***************************** -->
 
-    <!-- <section class="faq">
+    <section class="faqSection" id="FAQ">
         <h1>frequently Asked Questions</h1>
-        <div>
-            <div>
-                <h2>accusantium numquam iure repudiandae amet, soluta molestiae</h2>
-                <button class="chevron"><i class="fa fa-chevron-down icon"></i></button> 
+
+
+        <div class="faq_container">
+            <div class="faqcontainer_item">
+                <div class="faqcontainer_item-header ">
+                    Do I need a financial statement to use stocka ?
+                </div>
+               
+                <div class="faq_item-body">
+                    <div class="faqitembody_content">
+                        accusantium numquam iure repudiandae amet, soluta molestiae
+                    </div>
+                </div>
             </div>
-            <p>accusantium numquam iure repudiandae amet, soluta molestiae </p>
-        </div>
-        <div>
-            <div>
-                <h2>accusantium numquam iure repudiandae amet, soluta molestiae</h2>
-                <button class="chevron"><i class="fa fa-chevron-down icon"></i></button>
+
+
+            <div class="faqcontainer_item">
+                <div class="faqcontainer_item-header">
+                    Do I need a financial statement to use stocka ?
+                </div>
+               
+                <div class="faq_item-body">
+                    <div class="faqitembody_content">
+                        accusantium numquam iure repudiandae amet, soluta molestiae
+                    </div>
+                </div>
             </div>
-            <p>accusantium numquam iure repudiandae amet, soluta molestiae </p>
-        </div>
-        <div>
-            <div>
-                <h2>accusantium numquam iure repudiandae amet, soluta molestiae</h2>
-                <button class="chevron"><i class="fa fa-chevron-down icon"></i></button>
+
+
+            <div class="faqcontainer_item">
+                <div class="faqcontainer_item-header">
+                    Do I need a financial statement to use stocka ?
+                </div>
+               
+                <div class="faq_item-body">
+                    <div class="faqitembody_content">
+                        accusantium numquam iure repudiandae amet, soluta molestiae
+                    </div>
+                </div>
             </div>
-            <p>accusantium numquam iure repudiandae amet, soluta molestiae </p>
-        </div>
-        <div>
-            <div>
-                <h2>accusantium numquam iure repudiandae amet, soluta molestiae</h2>
-                <button class="chevron"><i class="fa fa-chevron-down icon"></i></button>
-            </div>
-            <p>accusantium numquam iure repudiandae amet, soluta molestiae </p>
-        </div>
-    </section> -->
+       </div>
+          
+    </section>
 
     <!-- ***************************** watermarks********************************* -->
-    <!-- <section class="watermarks">
-        <li><img src="../images/domino.png" alt="domino"></li>
-        <li><img src="../images/addiae.png" alt="adidde"></li>
-        <li><img src="../images/supersaver.png" alt="supersaver"></li>
-        <li><img src="../images/hubmart.png" alt="hubmart"></li>
-        <li><img src="../images/prince ebeano.png" alt="prince-ebeano"></li>
+     <section class="watermarks">
+        <img src="../images/domino.svg" alt="domino"/>
+        <img src="../images/addiae.svg" alt="adidde"/>
+        <img src="../images/supersaver.svg" alt="supersaver"/>
+        <img src="../images/hubmart.svg" alt="hubmart"/>
+        <img src="../images/prince ebeano.svg" alt="prince-ebeano"/>
     </section>
     <section class="get-stocka">
-        <!-- remember to use background1 as background image -->
-        <div class="content">
-            <h1>Get Stocka Now</h1>
-            <p>real-time inventory tracking ,so <br> you never run out of stock</p>
-            <button><img src="../images/googleplaystore.png" alt="googleplaystore"></button>
+         
+        <div class="footer_content-body-top">
+
+            <div class="footer_bodyitem-contents">
+
+                <h1>Get Stocka Now</h1>
+                <p>Real-time inventory tracking ,so <br> you never run out of stock</p>
+                <img src="../images/googleplayfooter.svg" alt="googleplaystore" class="ggleplayfooter2">
+            </div>
+          
         </div>
     </section>
 
     <!-- **************************   footer   ********************************************* -->
     <footer>
         <div class="footer-left">
-            <img src="../images/stocka.png" alt="logo">
+            <img src="../images/stockaFooter.svg" alt="logo">
             <p>Stocka provides a platform for traders to enter all business <br> 
                transactions and automatically update inventory. With Stocka, you <br>
                can check in/out items with an in-built scanner, calculate and update <br>
@@ -158,14 +190,17 @@
             </p>
             
         </div>
-        <div class="footer-right">
+        <div class="footer-right" id="social-icons">
             <div class="media-links">
-                <li><a href=""><i class="fa fa-twitter icon"></i></a></li>
-                <li><a href=""><i class="fa fa-facebook icon"></i></a></li>
-                <li><a href=""><i class="fa fa-instagram icon"></i></a></li>
-                <li><a href=""><i class="fa fa-telegram icon"></i></a></li>
+               <span><a href=""><img src="../images/facebook.svg" class="fa-icon"></img></a></span> 
+               <span><a href=""><img src="../images/instagram.svg" class="fa-icon"></img></a></span> 
+
+               <span><a href=""><img src="../images/twitter.svg" class="fa-icon"></img></a></span> 
+
+               <span><a href=""><img src="../images/linkedln.svg" class="fa-icon"></img></a></span> 
+
             </div>
-            <p>&copy 2021, Stocka. 
+            <p>&copy 2021, Stocka. <br>
                All rights reserved
             </p>
 
@@ -173,4 +208,4 @@
     </footer>
 
 </body>
-</html> -->
+</html> 
