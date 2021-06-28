@@ -12,7 +12,7 @@ Stocka is an inventory digital solution that will take account of trader's sales
 
 # Contribution Guide
 
-1. Go to [github link](github link) and fork the repo.
+1. Go to [github link] (zuri-training/Stocka-fe-pjt-114) and fork the repo.
 
 2. After forking, go to your github page and Clone your forked repo. 
 
