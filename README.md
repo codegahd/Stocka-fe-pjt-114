@@ -4,7 +4,7 @@
 
 ## Stocka Figma Link
    
-   Open [Figma Link](https://www.figma.com/file/ttEUL6WHpolmOJpNVVONgY/Stocka-APP?node-id=0%3A1) to view board and prototype
+   Open [Figma Link] (https://www.figma.com/file/ttEUL6WHpolmOJpNVVONgY/Stocka-APP?node-id=0%3A1) to view board and prototype
 
 ## Stocka Description
 
