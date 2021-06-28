@@ -1,40 +1,47 @@
 # Stocka-fe-pjt-114
 
+# Stocka
+
+## Stocka Figma Link
+   
+   Open [Figma Link](https://www.figma.com/file/ttEUL6WHpolmOJpNVVONgY/Stocka-APP?node-id=0%3A1) to view board and prototype
+
+## Stocka Description
+
 Stocka is an inventory digital solution that will take account of trader's sales and stocks, calculates their profits or losses over a specific period of time and offer suggestions to build profits.
 
-# Steps To Contributing to the project
-  
-1. Fork the repo.
+# Contribution Guide
 
-2. Clone the fork repo into your local machine.
+1. Go to [github link](github link) and fork the repo.
 
-```git clone <the-repo-link>```
+2. After forking, go to your github page and Clone your forked repo. 
 
-3. Create an upstream on your local machine to pull the latest code from the main branch of the repository
+3. Create a project folder on your local machine. 
 
-```git remote add upstream <the-url-where-you-fork-this-repo>```
+4. Navigate to it in the terminal. Run `git clone (github link)`.
 
-4. Create a new branch on your local machine. The command below will create a new branch and then switch to the branch
+5. Create a branch for your task `git checkout -b <branchname>`.
 
-```git checkout -b <branch-name>```
+6. After changes : 
 
-5. Make changes to the code
+- git add .
 
-6. Commit changes to the branch and push to your forked repo.
+- git commit  -m "some comments"
 
-```git add .
-   git commit -m "<commit-message>"
-   git push origin <branch-name>
-```
+- git push origin `<name of your branch>`
 
-7. Come back to this repo and open a pull request on the branch you created.
-
-```
-Switch to the branch you created on the repo. 
-By doing that you would have seen a button compare/pull request. 
-Click the button, which will then take you to a page to provide the title and description for the pull request. 
-After that, press the pull request button to submit a pull request. 
-With that you are done, it's left for the cordinator to review and merge
-```
+7. Create PR.
    
- **Do not merge your pull request yourself. Wait for review and merging from the coordinator.**
+## Folder Structure for the Frontend
+
+1. **ASSETS FOLDER**
+    This folder contains all the images and icons that were used in the project
+    
+2. **CONSTANTS FOLDER**
+    This is the folder that contains the Javascript used in the project
+    
+3 **STYLES FOLDER**
+    This is the folder that  contains all the styles in the projects
+
+
+
