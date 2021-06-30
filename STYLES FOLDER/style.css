@@ -53,6 +53,10 @@ li a {
   line-height: 22px;
 }
 
+li a:hover{
+  color: #FFCC49;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -362,7 +366,7 @@ h3 span {
 }
 
 .faqcontainer_item-header::after {
-  content: url(../images/dropdown.svg);
+  content: url('../ASSETS FOLDER/dropdown.svg');
   position: absolute;
   right: 1rem;
   transition: all 0.5s ease-in-out;
@@ -397,34 +401,68 @@ h3 span {
   margin: 7rem auto;
 }
 
-.get-stocka {
-  background: url("../images/getStockaBg.svg") center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* .get-stocka {
+ 
   height: 350px;
-  width: 90%;
+  width: 60%;
   margin: 5rem auto;
   border-radius: 2rem;
+  background-color:#FFCC49;
+  justify-content: center;
+} */
+
+
+.get-stocka{
+  background-color:#FFCC49;
+  max-width: 70%;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  height: 350px;
+
+} 
+
+.footer_content-body{
+  width:40%;
+  height: 350px;
+  padding: 0px 70px 0px 200px;
 }
 
 .footer_content-body-top {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+  /* background-color:#FFCC49;
   display: flex;
-  align-items: center;
-  width: 50%;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 50%; */
+  /* align-items: center; */
+  /* width: 100%; */
+}
+
+.footer_bodyitem-contents_img img{
+  width: 40%;
+}
+
+.footer_bodyitem-contents_img{
+  padding: 70px 0px 0px 70px;
 }
 
 .footer_bodyitem-contents {
-  margin: 5rem 0 0 9rem;
-  position: relative;
+  /* padding: 5rem 0 0 2rem; */
+  padding: 20px 0px 0px 0px;
+  /* position: relative; */
 }
 
 .footer_bodyitem-contents h1 {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 115.02%;
+  font-size: 40px;
+  margin: 60px 0px 0px;
+  /* line-height: 115.02%; */
   /* or 55px */
 
   color: #000000;
@@ -434,17 +472,22 @@ h3 span {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 13.5px;
-  line-height: 29px;
+  font-size: 17px;
+  /* line-height: 29px; */
   color: #212121;
 }
 
 .ggleplayfooter2 {
-  position: absolute;
-  top: 8rem;
-  right: 3rem;
-  margin-top: 1rem;
+  position: relative;
+  /* top: 8rem; */
+  right: 1rem;
+  /* margin-top: 1rem; */
 }
+
+.Google-Pixel-2{
+  position: relative;
+  right: 70px;
+} 
 
 footer {
   background: #ffffff;
@@ -459,7 +502,7 @@ footer {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 27px;
   letter-spacing: -0.015em;
   color: #212121;
@@ -486,7 +529,7 @@ footer {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 25px;
   text-align: right;
   color: #000000;
