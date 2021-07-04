@@ -6,71 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./ASSETS FOLDER/stocka.svg" type="image/x-icon">
     <title>stocka</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link    rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+    <!-- bootsrap for navigation menu -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- STYLE FOR ANIMATION ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./STYLES FOLDER/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script  src="./CONSTANTS FOLDER/index.js" defer></script>
 </head>
 <body>
+    <!-- width="560" height="650" -->
    
     <!-- <img src="../images/Vector.svg" alt="logo" class="vector_bodybackground1"> -->
-    <img src="./ASSETS FOLDER/Vector (1).png" alt="logo" class="vector_bodybackground1" width="560" height="650">
-    <img src="./ASSETS FOLDER/vectorBg2.svg" alt="logo" class="vectorBg2">
+    <div class="bg1Wrapper">
+        <img src="./ASSETS FOLDER/Vector (1).png" alt="logo" class="vector_bodybackground1" >
+    </div>
+    <!-- <div class="bg1Wrapper2"> -->
+    <img src="./ASSETS FOLDER/vectorBg2.svg" alt="logo" class="vector_bodybackground2">
+<!-- </div> -->
 
 <!-- ********************************************header ************************************ -->
 
+
     <header>
-        <div class="logo"><img src="./ASSETS FOLDER/stocka.svg" alt="logo" class="stocka_logo"></h2></div>
-        <nav>
-            <li><a href="#whystocka">Why Stocka</a></li>
-            <li><a href="#FAQ">FAQ</a></li>
-            <li><a href="#social-icons">Contact</a></li>
-        </nav>
-    </header>
+
+
+        <nav class="navbar mx-md-5  navbar-expand-lg w-100 navbar-light bg-transparent" >
+            
+                <a  class="navbar-brand" href="#"><img src="./ASSETS FOLDER/stocka.svg" alt="logo" class="stocka_logo"></a>
+            <button class="navbar-toggler btn border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+          
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navbar-center" >
+                <li><a href="#whystocka">Why Stocka</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+                <li><a href="#social-icons">Contact</a></li>
+              </ul>
+             
+            </div>
+          </nav>
+
+         
+
+    </header> 
 
 <!-- ********************************************* hero section********************************* -->
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Inventory Management, In Your Hands.</h1>
-            <p>Monitor your business in real time.</p>
-           <a href=""><img src="./ASSETS FOLDER/googleplaystore.svg" alt="google playstore" class="googleplay"> </a >
+    <section class="hero"> 
+        <div class="hero-content " 
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
+            <h1 class="display-2">Inventory <br> Management, <br>In Your Hands.</h1>
+            <p>Monitor your business in <span>real time.</span></p>
+           <a href=""><img src="./ASSETS FOLDER/googleplaystore.png" alt="google playstore" class="googleplay"> </a >
         </div>
-        <img src="./ASSETS FOLDER/Group 584.png" alt="hero image" class="hero-img animate__animated animate__bounce animate__repeat-3	3" width="55%" height="75%">
+        <img 
+        data-aos="fade-in"
+        data-aos-offset="200"
+        data-aos-delay="60"
+        data-aos-duration="80"
+        data-aos-easing="ease-in-out"
+        
+        src="./ASSETS FOLDER/Group 584.png" alt="hero image"  class="hero-img" >
+        <!-- src="./ASSETS FOLDER/Group 584.png" alt="hero image"  class="hero-img animate__animated animate__bounce animate__repeat-3	3" > -->
     </section>
-    <section class="banner" id="whystocka">
-        <h3>Why <span>Stocka?<span></h3>
+    <section class="banner" id="whystocka" data-aos="fade-up">
+        <h3>Why Stocka?</h3>
         <div class="banner__info">
-            <!-- <img src="../images/banner.svg" alt="banner image" > -->
-            <img src="./ASSETS FOLDER/Group 544.png" alt="banner image" width="30%" height="20%" class="animate__animated animate__zoomInDown animate__slower	3s" >
-
+            <!-- <img src="../images/banner.svg" alt="banner image" >  -->
+            <img src="./ASSETS FOLDER/Group 544.png"   alt="banner image" class="banner_info_img_1 animate__animated animate__zoomInDown animate__slower 3s" >
+            
             <div class="banner-content">
-                <h1>Never run out of Stock.</h1>
-                <p>real time inventory tracking, so that you never out of stock keep your expenses and profit in check.</p>
-                <a href=""><img src="./ASSETS FOLDER/googleplaystore.svg" alt="google playstore" class="googleplay2"> </a >
+                <h1>Never run<br> out of Stock.</h1>
+                <small>Real-time inventory tracking, so that you never out of stock keep your expenses and profit in check.</small>
+      <br>
+                <a href=""><img src="./ASSETS FOLDER/googleplaystore.png" alt="google playstore" class="googleplay"> </a >
             </div>
         </div>
     </section>
 
 <!-- ****************************************** for charts and side bar beside the chart ************************ -->
 
-    <section class="stats">
-        <section class="charts">
+    <section class="stats ">
+        <section class="charts col-md-5" data-aos="slide-up"     data-aos-duration="5000" data-aos-easing="ease-in-out">
             <h1>Real-time performance stats</h1>
             <div class="charts__img1-2">
                 <img src="./ASSETS FOLDER/chart1.svg" alt="chart icon" class="img1 animate__animated animate__slideInLeft animate__slower	4s" >
-                <img src= "./ASSETS FOLDER/chart2.svg " alt="chart icon" class="img2 animate__animated animate__slideInUp animate__slower	5s">
+                <img src= "./ASSETS FOLDER/chart2.png " alt="chart icon" class="img2 animate__animated animate__slideInUp animate__slower	5s">
             </div>
-        
+           
             <img src="./ASSETS FOLDER/summary.svg" alt="chart icon" class="img3 animate__animated animate__slideInDown animate__slower	6s">
+       
         </section>
-        <section class="chart-sidebar">
-            <h2>Monitor your business growth, in real time</h2>
+        <section class="chart-sidebar mx-4 col-md-5">
+            <h3 class="mainHeader">Monitor your business <br>growth in real time</h3>
 
             <div class="side-content">
                
@@ -104,20 +152,22 @@
 
 <!-- ***************************************** scanner advert*************************************** -->
 
-    <section class="scanner">
-        <div class="scanner-content">
-            <h1>Sth About The Scanner</h1>
-            <p>With product scanner ,effeciency, error production and data collection is being made easier and better.</p>
-            <img src="./ASSETS FOLDER/googleplaystore.svg" alt="googleplaystore" class="scanner-gggleplaystore">
+    <section class="scanner row" data-aos="fade-in" >
+        <div class="scanner-content col-md-3 " >
+            <h1 class="h1"><b>Efficiency Gurarnteed</b></h1>
+            <small>With a product scanner, efficiency, error reduction and data collection is being made easier and better.</small><br>
+            <img src="./ASSETS FOLDER/googleplaystore.png" alt="googleplaystore" class="scanner-gggleplaystore">
         </div>
-        <!-- <img src="../images/scanner-img.svg" alt="scanner image" class="scanner-img">  -->
-        <img src="./ASSETS FOLDER/Group 562.png" alt="scanner image" class="scanner-img " width="30%" height="20%"> 
+    
+       <div class=" col-md-5 text-center" >
+        <img src="./ASSETS FOLDER/Group 562.png" alt="scanner image" class="scanner-img .img-fluid" > 
+    </div>
     </section>
 
  <!-- ************************************ferquently asked question***************************** -->
 
-    <section class="faqSection" id="FAQ">
-        <h1>frequently Asked Questions</h1>
+    <section class="faqSection" id="FAQ" data-aos="zoom-in" data-aos-once="false">
+        <h5>frequently Asked Questions</h5>
 
         <div class="faq_container">
             <div class="faqcontainer_item">
@@ -160,28 +210,29 @@
        </div>
           
     </section>
+    <!-- animate__infinite	infinite -->
 
     <!-- ***************************** watermarks********************************* -->
      <section class="watermarks ">
-         <!-- <img src="../images/domino.svg" alt="domino"/> -->
-         <img src="./ASSETS FOLDER/domino.png" alt="domino" class="animate__animated animate__bounce animate__infinite	infinite" />
-         <img src="./ASSETS FOLDER/addiae.svg" alt="adidde" class="animate__animated animate__bounce animate__infinite	infinite"/>
-        <img src="./ASSETS FOLDER/supersaver.svg" alt="supersaver" class="animate__animated animate__bounce animate__infinite	infinite"/>
-        <img src="./ASSETS FOLDER/hubmart.svg" alt="hubmart" class="animate__animated animate__bounce animate__infinite	infinite"/>
-        <img src="./ASSETS FOLDER/prince ebeano.svg" alt="prince-ebeano" class="animate__animated animate__bounce animate__infinite	infinite"/>
+         <!-- <img src="../images/domino.svg" alt="domino"/>  -->
+         <img src="./ASSETS FOLDER/domino.png" alt="domino" class="animate__animated animate__bounce " />
+         <img src="./ASSETS FOLDER/addiae.svg" alt="adidde" class="animate__animated animate__bounce "/>
+        <img src="./ASSETS FOLDER/supersaver.svg" alt="supersaver" class="animate__animated animate__bounce "/>
+        <img src="./ASSETS FOLDER/hubmart.svg" alt="hubmart" class="animate__animated animate__bounce "/>
+        <img src="./ASSETS FOLDER/prince ebeano.svg" alt="prince-ebeano" class="animate__animated animate__bounce "/>
     </section>
-    <section class="get-stocka">
+    <section class="get-stocka" data-aos="zoom-in" data-aos-once="false">
         
 
-            <div class="footer_content-body-top">
+            <div class="footer_content-body-top row">
                  
-                <div class="footer_content-body footer_bodyitem-contents">
-                     <h1>Get Stocka Now</h1>
+                <div class="footer_bodyitem-contents col-md-4">
+                     <h3 class="h2">Get Stocka Now</h3>
                      <p>Real-time inventory tracking ,so you never run out of stock</p>
-                     <img src="./ASSETS FOLDER/googleplayfooter.svg" alt="googleplaystore" class="ggleplayfooter2">
+                     <img src="./ASSETS FOLDER/googleplaystore.png" alt="googleplaystore" class="ggleplayfooter2">
                 </div>
                  
-                    <div class="footer_content-body footer_bodyitem-contents_img">
+                    <div class="footer_bodyitem-contents_img col-md-5">
                      <img src="./ASSETS FOLDER/Group 564.png" alt="Google Pixel 4a" class="Google-Pixel-1 "  >
                      <img src="./ASSETS FOLDER/Google Pixel 4a 5G (1).png" alt="Google Pixel 4a" class="Google-Pixel-2" >
                     </div>
@@ -192,17 +243,20 @@
 
     <!-- **************************   footer   ********************************************* -->
 
-    <footer>
-        <div class="footer-left">
-            <img src="./ASSETS FOLDER/stockaFooter.svg" alt="logo">
-            <p>Stocka provides a platform for traders to enter all business <br> 
-               transactions and automatically update inventory. With Stocka, you <br>
-               can check in/out items with an in-built scanner, calculate and update <br>
+    <footer class="w-100" data-aos="slide-up" data-aos-once="false">
+       
+
+        <div class="footer-left col-md-6" >
+            <img src="./ASSETS FOLDER/stockaFooter.svg" class="mb-4" alt="logo" >
+            <p>Stocka provides a platform for traders to enter all business  
+               transactions and automatically update inventory. With Stocka, you
+               can check in/out items with an in-built scanner, calculate and update
                business networth. 
             </p>
             
+            
         </div>
-        <div class="footer-right" id="social-icons">
+        <div class="footer-right col-md-4" id="social-icons" >
             <div class="media-links">
                <span><a href=""><img src="./ASSETS FOLDER/facebook.svg" class="fa-icon"></img></a></span> 
                <span><a href=""><img src="./ASSETS FOLDER//instagram.svg" class="fa-icon"></img></a></span> 
@@ -210,12 +264,19 @@
                <span><a href=""><img src="./ASSETS FOLDER/linkedln.svg" class="fa-icon"></img></a></span> 
 
             </div>
-            <p>&copy 2021, Stocka. <br>
-               All rights reserved
-            </p>
-
+            <p style="text-align: center; width: 100%; margin-top: 10%;" >&copy 2021, Stocka. <br>
+                All rights reserved
+             </p>
         </div>
+       
+      
     </footer>
 
+
+    <!-- Screept for animation on scroll  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html> 
