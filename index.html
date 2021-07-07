@@ -24,23 +24,18 @@
     <script  src="./CONSTANTS FOLDER/index.js" defer></script>
 </head>
 <body>
-    <!-- width="560" height="650" -->
    
-    <!-- <img src="../images/Vector.svg" alt="logo" class="vector_bodybackground1"> -->
     <div class="bg1Wrapper">
         <img src="./ASSETS FOLDER/Vector (1).png" alt="logo" class="vector_bodybackground1" >
     </div>
-    <!-- <div class="bg1Wrapper2"> -->
+
     <img src="./ASSETS FOLDER/vectorBg2.svg" alt="logo" class="vector_bodybackground2">
-<!-- </div> -->
 
 <!-- ********************************************header ************************************ -->
 
 
     <header>
-
-
-        <nav class="navbar mx-md-5  navbar-expand-lg w-100 navbar-light bg-transparent" >
+        <nav class="navbar mx-md-5  navbar-expand-lg w-100 navbar-light bg-transparent"  >
             
                 <a  class="navbar-brand" href="#"><img src="./ASSETS FOLDER/stocka.svg" alt="logo" class="stocka_logo"></a>
             <button class="navbar-toggler btn border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +48,7 @@
               <ul class="navbar-nav mr-auto navbar-center" >
                 <li><a href="#whystocka">Why Stocka</a></li>
                 <li><a href="#FAQ">FAQ</a></li>
-                <li><a href="#social-icons">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
              
             </div>
@@ -66,6 +61,7 @@
 <!-- ********************************************* hero section********************************* -->
 
     <section class="hero"> 
+
         <div class="hero-content " 
         data-aos="fade-up"
         data-aos-offset="200"
@@ -75,10 +71,13 @@
         data-aos-mirror="true"
         data-aos-once="false"
         >
-            <h1 class="display-2">Inventory <br> Management, <br>In Your Hands.</h1>
+
+            <h1 class="display-2">Inventory <br> Management <br>In Your Hands.</h1>
             <p>Monitor your business in <span>real time.</span></p>
-           <a href=""><img src="./ASSETS FOLDER/googleplaystore.png" alt="google playstore" class="googleplay"> </a >
+            <a href=""><img src="./ASSETS FOLDER/googleplaystore.png" alt="google playstore" class="googleplay"> </a >
+        
         </div>
+
         <img 
         data-aos="fade-in"
         data-aos-offset="200"
@@ -87,12 +86,12 @@
         data-aos-easing="ease-in-out"
         
         src="./ASSETS FOLDER/Group 584.png" alt="hero image"  class="hero-img" >
-        <!-- src="./ASSETS FOLDER/Group 584.png" alt="hero image"  class="hero-img animate__animated animate__bounce animate__repeat-3	3" > -->
+
     </section>
+
     <section class="banner" id="whystocka" data-aos="fade-up">
-        <h3>Why Stocka?</h3>
+        <h3>Why <span class="log-2">Stock</span><span class="log-3">a</span>?</h3>
         <div class="banner__info">
-            <!-- <img src="../images/banner.svg" alt="banner image" >  -->
             <img src="./ASSETS FOLDER/Group 544.png"   alt="banner image" class="banner_info_img_1 animate__animated animate__zoomInDown animate__slower 3s" >
             
             <div class="banner-content">
@@ -161,7 +160,7 @@
     
        <div class=" col-md-5 text-center" >
         <img src="./ASSETS FOLDER/Group 562.png" alt="scanner image" class="scanner-img .img-fluid" > 
-    </div>
+       </div>
     </section>
 
  <!-- ************************************ferquently asked question***************************** -->
@@ -210,11 +209,9 @@
        </div>
           
     </section>
-    <!-- animate__infinite	infinite -->
 
     <!-- ***************************** watermarks********************************* -->
      <section class="watermarks ">
-         <!-- <img src="../images/domino.svg" alt="domino"/>  -->
          <img src="./ASSETS FOLDER/domino.png" alt="domino" class="animate__animated animate__bounce " />
          <img src="./ASSETS FOLDER/addiae.svg" alt="adidde" class="animate__animated animate__bounce "/>
         <img src="./ASSETS FOLDER/supersaver.svg" alt="supersaver" class="animate__animated animate__bounce "/>
@@ -241,6 +238,40 @@
         
     </section>
 
+    <!-- ********************************************contact ************************************ -->
+
+    <section class="contact-section" id="contact">
+        <div class="contact-sec">
+            <div class="contact-heading">
+                <h2>Get In Touch </h2>
+                <h4> Don’t be shy, feel free to reach out to us. 😊</h4>
+            </div>
+
+            <form action="" class="form">
+                <div class="form-1">
+                    <div class="input-1">
+                        <input type="text"  class="first" placeholder="Name">
+                    </div>
+                    
+                    <div class="input-2">
+                        <input type="email" class="email" placeholder="E-mail">
+                    </div>
+                </div>
+               
+                <div class="form-2">
+                    <div class="input-5">
+                        <textarea name="Message" class="message" cols=30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                </div>       
+                <div class="form-3">
+                    <input type="submit" value="SEND" class="button">
+                </div>
+               
+            </form>
+        </div>
+     
+    </section>
+
     <!-- **************************   footer   ********************************************* -->
 
     <footer class="w-100" data-aos="slide-up" data-aos-once="false">
@@ -256,7 +287,7 @@
             
             
         </div>
-        <div class="footer-right col-md-4" id="social-icons" >
+        <div class="footer-right col-md-4"  >
             <div class="media-links">
                <span><a href=""><img src="./ASSETS FOLDER/facebook.svg" class="fa-icon"></img></a></span> 
                <span><a href=""><img src="./ASSETS FOLDER//instagram.svg" class="fa-icon"></img></a></span> 
@@ -273,7 +304,7 @@
     </footer>
 
 
-    <!-- Screept for animation on scroll  -->
+    <!-- Script for animation on scroll  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
