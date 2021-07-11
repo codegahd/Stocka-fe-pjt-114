@@ -612,8 +612,12 @@ footer {
  /* Tablet - view---------------------------------- */
 @media only screen and (max-width: 900px) {
   
-  body{
+  header, Section{
     padding: 0 20px; 
+  }
+
+  footer{
+    padding: 0px;
   }
 
   .banner {
