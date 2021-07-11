@@ -3,9 +3,9 @@
 body{
   padding: 0;
   margin: 0;
-  height: 100%;
-  
+  height: 100%;  
 }
+
 *{
   font-family: "Inter";
 }
@@ -576,6 +576,8 @@ footer {
 /* Laptop view ------------------------------------- */
 @media only screen and (max-width: 1024px) {
 
+
+
   li a {
     font-size: 10px;
   }
@@ -602,12 +604,21 @@ footer {
  /* Tablet - view---------------------------------- */
 @media only screen and (max-width: 900px) {
   
+  body{
+    padding: 0 20px; 
+  }
+
   .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 6rem 10rem;
+  }
+
+  .banner-content {
+    padding: 8% 10% 0;
+    text-align: left;
   }
 
   .banner_info_img_1{
@@ -656,6 +667,10 @@ footer {
     margin: 10% 0;
   }
 
+  .faqSection h5 {
+    padding: 0 5px;
+  }
+
   .form-1{
     display: block;
     margin: 0 0 20px ;
@@ -675,6 +690,18 @@ footer {
     height: 150px;
   }
 
+  .media-links {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  
+  .footer-left {
+    order: 2;
+  }
+  
+  .footer-right {
+    order: 1;
+  }
 }
 
 
@@ -694,15 +721,15 @@ footer {
     margin-top: 0%;
   }
 
-
   .chart-sidebar .mainHeader{
     font-size: 16px;
     line-height: 26px; 
   }
 
-.footer-left{
-  text-align: center;
-}
+  .footer-left{
+    text-align: center;
+  }
+
   .hamborg-btn {
     display: block  ;
     width:10%;
