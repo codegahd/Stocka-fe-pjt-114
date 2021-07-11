@@ -597,6 +597,14 @@ footer {
     font-size: 0.8rem;
   }
 
+  .footer-left {
+    order: 2;
+  }
+  
+  .footer-right {
+    order: 1;
+  }
+
 }
 
 
@@ -617,7 +625,7 @@ footer {
   }
 
   .banner-content {
-    padding: 8% 10% 0;
+    padding: 18% 10% 0;
     text-align: left;
   }
 
